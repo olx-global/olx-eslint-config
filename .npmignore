@@ -1,1 +1,7 @@
 *.md
+
+#linters
+.eslintrc
+
+#editor settings
+.editorconfig
