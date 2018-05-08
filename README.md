@@ -10,7 +10,7 @@ Add ESLint script to run it in `package.json` and check the devDependencies:
     "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint-config-panamera": "latest"
+    "eslint-config-olx": "latest"
   }
 }
 ```
@@ -19,7 +19,7 @@ Add `.eslintrc` file and extend from this package
 
 ```json
 {
-  "extends": "panamera"
+  "extends": "olx"
 }
 ```
 
@@ -27,7 +27,7 @@ If you want **es6** and **react** configs
 
 ```json
 {
-  "extends": [ "panamera", "panamera/es6", "panamera/react", "panamera/mocha", "panamera/jasmine" ]
+  "extends": [ "olx", "olx/es6", "olx/react", "olx/mocha", "olx/jest" ]
 }
 ```
 
