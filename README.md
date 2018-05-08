@@ -5,7 +5,7 @@
 Add ESLint script to run it in `package.json` and check the devDependencies:
 
 ```bash
-  yarn add olx-global/olx-eslint-config#v1.0.0 
+  yarn add olx-global/olx-eslint-config
 ```
 
 This is how you `package.json` should look like:
@@ -16,7 +16,7 @@ This is how you `package.json` should look like:
     "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint-config-olx": "olx-global/olx-eslint-config#v1.0.0",
+    "eslint-config-olx": "olx-global/olx-eslint-config#v1.0.1",
   }
 }
 ```
