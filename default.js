@@ -104,7 +104,7 @@ module.exports = {
     'no-sync': 'error',
 
     // Stylistic Issues
-    'array-bracket-spacing': [ 'error', 'always' ],
+    'array-bracket-spacing': [ 'error', 'never' ],
     'block-spacing': 'error',
     'brace-style': [ 'error', '1tbs', { 'allowSingleLine': true } ],
     'camelcase': 'error',
