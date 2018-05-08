@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-olx",
+  "version": "1.0.0",
+  "description": "OLX ESLint shareable config",
+  "keywords": [
+    "code style",
+    "lint",
+    "linter",
+    "eslint",
+    "eslintconfig"
+  ],
+  "homepage": "",
+  "bugs": "",
+  "license": "MIT",
+  "author": "Facundo Viale <facundo.viale@olx.com>",
+  "contributors": [],
+  "main": "default.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "babel-eslint": "8.2.3",
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-flowtype": "2.46.3",
+    "eslint-plugin-import": "2.11.0",
+    "eslint-plugin-jest": "21.15.1",
+    "eslint-plugin-mocha": "5.0.0",
+    "eslint-plugin-react": "7.7.0"
+  },
+  "peerDependencies": {
+    "babel-eslint": "8.2.3",
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-flowtype": "2.46.3",
+    "eslint-plugin-import": "2.10.0",
+    "eslint-plugin-jest": "21.15.0",
+    "eslint-plugin-mocha": "5.0.0",
+    "eslint-plugin-react": "7.7.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}

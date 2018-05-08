@@ -1,0 +1,15 @@
+# Local reports
+reports
+npm-debug.*
+coverage
+
+# NPM
+node_modules
+
+# YARN
+yarn-error.log
+
+
+.idea
+.DS_Store
+.directory
