@@ -4,13 +4,19 @@
 
 Add ESLint script to run it in `package.json` and check the devDependencies:
 
+```bash
+  yarn add olx-global/olx-eslint-config#v1.0.0 
+```
+
+This is how you `package.json` should look like:
+
 ```json
 {
   "scripts": {
     "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint-config-olx": "latest"
+    "eslint-config-olx": "olx-global/olx-eslint-config#v1.0.0",
   }
 }
 ```
@@ -23,7 +29,7 @@ Add `.eslintrc` file and extend from this package
 }
 ```
 
-If you want **es6** and **react** configs
+If you only want **es6** and **react** configs
 
 ```json
 {
