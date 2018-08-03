@@ -8,7 +8,6 @@ module.exports = {
     // React
     'react/forbid-prop-types': 'error',
     'react/no-danger': 'error',
-    'react/no-did-mount-set-state': 'error',
     'react/no-did-update-set-state': 'error',
     'react/no-multi-comp': [ 'error', { 'ignoreStateless': true } ],
     'react/no-render-return-value': 'error',

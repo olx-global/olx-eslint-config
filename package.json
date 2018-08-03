@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-olx",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "OLX ESLint shareable config",
   "keywords": [
     "code style",
@@ -19,22 +19,22 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "babel-eslint": "8.2.5",
-    "eslint": "5.1.0",
+    "babel-eslint": "8.2.6",
+    "eslint": "5.2.0",
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-flowtype": "2.50.0",
     "eslint-plugin-import": "2.13.0",
-    "eslint-plugin-jest": "21.17.0",
+    "eslint-plugin-jest": "21.18.0",
     "eslint-plugin-mocha": "5.1.0",
     "eslint-plugin-react": "7.10.0"
   },
   "peerDependencies": {
-    "babel-eslint": "8.2.3",
-    "eslint": "5.1.0",
+    "babel-eslint": "8.2.6",
+    "eslint": "5.2.0",
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-flowtype": "2.50.0",
     "eslint-plugin-import": "2.13.0",
-    "eslint-plugin-jest": "21.17.0",
+    "eslint-plugin-jest": "21.18.0",
     "eslint-plugin-mocha": "5.1.0",
     "eslint-plugin-react": "7.10.0"
   },
