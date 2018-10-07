@@ -16,7 +16,7 @@ This is how you `package.json` should look like:
     "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint-config-olx": "olx-global/olx-eslint-config#v1.0.1",
+    "eslint-config-olx": "olx-global/olx-eslint-config#v2.0.0",
   }
 }
 ```
