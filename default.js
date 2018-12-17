@@ -4,10 +4,9 @@ module.exports = {
   'extends': [ 'eslint:recommended', 'prettier' ],
   'parser': 'babel-eslint',
   'parserOptions': {
-    'ecmaVersion': 8,
+    'ecmaVersion': 9,
   },
   'rules': {
-
     // Possible Errors
     'no-extra-parens': 'off',
     'no-prototype-builtins': 'error',
