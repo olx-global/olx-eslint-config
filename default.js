@@ -1,10 +1,13 @@
 'use strict'
 
 module.exports = {
-  'extends': [ 'eslint:recommended', 'prettier' ],
+  'extends': [
+    'eslint:recommended',
+    'plugin:prettier/recommended'
+  ],
   'parser': 'babel-eslint',
   'parserOptions': {
-    'ecmaVersion': 9,
+    'ecmaVersion': 2018,
   },
   'rules': {
     // Possible Errors
